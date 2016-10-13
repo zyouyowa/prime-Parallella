@@ -83,6 +83,6 @@ int main(){
     }
     gettimeofday(&end, NULL);
     double calc_time = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) * 1.0e-6;
-    printf("%u %u %lf\n", cores, total_primes,calc_time);
+    printf("%u %u %lf\n", cores, total_primes, calc_time);
     e_finalize();
 }
